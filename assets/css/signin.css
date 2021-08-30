@@ -1,0 +1,194 @@
+body, html {
+    font-family: 'Helvetica Neue',Helvetica,Arial,sans-serif;
+}
+body{
+    background: url("../images/background.jpg") no-repeat;
+}
+
+.logo{
+    margin-left: 50px;
+    margin-top: 20px;
+}
+
+.svg-icon-netflix-logo{
+    fill: #e50914;
+    line-height: normal;
+    width: 10.4375rem;
+    height: 2.8125rem;
+}
+
+.outer-area{
+    height: 500px;
+    padding: 40px
+}
+
+.inner-area{
+    margin: 30px;
+    margin: auto;
+    width: 25%;
+    height: 600px;
+    background-color: rgba(0, 0, 0, 0.970);
+    margin-bottom: 90px;   
+}
+
+h1{
+    color: #fff;
+    font-size: 32px;
+
+}
+
+.form{
+    padding: 60px 68px 40px;
+}
+
+.input-element{
+    padding: 20px;
+    margin: 10px 0;
+    border-radius: 4px;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.signin-container{
+    border-radius: 4px;
+    margin: 10px 0;
+    width: 100%;
+    box-shadow: none;
+}
+.signin-container input{
+    font-size: 16px;
+    font-weight: 700;
+    color: #fff;
+    background-color: red;
+    text-decoration: none;
+    width: 100%;
+    box-shadow: none;
+    box-sizing: border-box;
+    padding: 16px;
+    text-shadow: none;
+    border-radius: 4px;
+}
+
+label, a{
+    color: #b3b3b3;
+    font-size: 13px;
+    font-weight: 500;
+}
+
+a{
+    text-decoration: none;
+}
+
+.facebook-login{
+    display: flex;
+    flex-direction: row;
+    margin: 10px 0;
+    
+}
+
+.facebook-logo{
+    height: 20px;
+    width: 20px;
+}
+
+.facebook-link img{
+    height: 20px;
+    width: 20px;
+}
+
+.facebook-link span{
+    text-decoration: none;
+    color: #737373;
+    font-size: 13px;
+    font-weight: 500;
+    vertical-align: middle;
+    width: 100%;
+}
+
+.facebook-link div{
+    display: inline;
+    text-align: center;
+}
+.sign-up{
+    color: #737373;
+    font-size: 16px;
+    font-weight: 500;
+    margin: 10px 0;
+}
+
+.sign-up a{
+    font-size: 16px;
+    font-weight: 500;
+    color: #fff;
+}
+
+.captcha{
+    font-size: 13px;
+    color: #8c8c8c;
+}
+.footer-section{
+    margin-top: 100px;
+    background-color: rgba(0, 0, 0, 0.970);
+    border-color: 5px solid black;   
+    height: 200px;
+}
+
+.footer-content{
+    margin: auto;
+}
+.form-help{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: baseline;
+    margin: 10px 0;
+}
+
+.help-link :hover{
+    text-decoration: underline;
+}
+
+.reg-option{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.center-section{
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    padding: 25px;
+}
+
+.upper-center-section{
+    color: #757575;    
+}
+
+.middle-first-row{
+    font-size: 13px;
+    color: #757575;    
+    margin: 25px 0;
+    display: flex;
+    flex-direction: row; 
+    justify-content: space-between;
+}
+
+.middle-second-row{
+    font-size: 13px;
+    color: #757575;    
+    margin: 25px 0;
+    display: flex;
+    flex-direction: row; 
+}
+
+.cookie-preference {
+    margin-right: 150px;
+}
+
+.select-language{
+    display: inline-block;
+    width: 100%;
+    color: #757575;
+}
